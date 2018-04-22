@@ -1,0 +1,23 @@
+body {
+	margin: 2% 10% 2% 10%;
+}
+
+* {
+	font-family: monospace;
+	font-size: 1em;
+	background-color: #f0f0f0;
+}
+
+h1 {
+	text-align: center;
+	color: #101010;
+}
+
+p {
+	color: #202020;
+}
+
+.footnote {
+	font-size: 0.75em;
+	color: #101010;
+}
