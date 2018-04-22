@@ -5,10 +5,10 @@
 		<meta name="author" content="rari-teh" />
 	</head>
 	<card id="home" title="rari-teh’s lair">
-		<p align="center"><big><pre>rari-teh’s lair of whatever</pre></big></p>
-		<p align="center"><pre>This website is a work in progress.</pre></p>
+		<p align="center"><big>rari-teh’s lair of whatever</big></p>
+		<p align="center">This website is a work in progress.</p>
 		<!--<p align="center"><anchor><go href="#links" />Click here!</anchor></p>-->
-		<p align="center"><small><pre>Temporarily hosted by Github Pages.</pre></small></p>
+		<p align="center"><small>Hosted by Github Pages.</small></p>
 	</card>
 	<!--<card id="links" title="rari-teh’s del-icio-us">
 		<p align="center"><big>rari-teh’s links</big></p>
