@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Fairfax';
+    src: local('Fairfax'),
+        url('/fonts/engrune-Fairfax.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fairfax';
+    src: local('Fairfax Italic'), local('FairfaxItalic'),
+        url('/fonts/engrune-FairfaxItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fairfax';
+    src: local('Fairfax Bold'), local('FairfaxBold'),
+        url('/fonts/engrune-FairfaxBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nishiki-teki';
+    src: local('Nishiki-teki'),
+        url('/fonts/engrune-Nishiki-teki.woff') format('woff');
+}
+
+/* Huge shoutout to Transfonter for their awesome free service */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Nishiki-teki';
+}
+
+p {
+	font-family: 'Fairfax';
+}
