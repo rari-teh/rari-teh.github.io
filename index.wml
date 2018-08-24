@@ -6,13 +6,6 @@
 	</head>
 	<card id="home" title="rari-teh’s lair">
 		<p align="center"><big>rari-teh’s lair of whatever</big></p>
-		<p align="center">This website is a work in progress.</p>
-		<!--<p align="center"><anchor><go href="#links" />Click here!</anchor></p>-->
-		<p align="center"><small>Hosted by Github Pages.</small></p>
+		<p align="center">Unfortunately, there is no mobile content yet. You can always <anchor><go href="/index.html" />go back to desktop</anchor> if you want to.</p>
 	</card>
-	<!--<card id="links" title="rari-teh’s del-icio-us">
-		<p align="center"><big>rari-teh’s links</big></p>
-		<p align="center"><anchor><go href="http://dragonflycave.com/" />The Cave of Dragonflies</anchor></p>
-		<p align="center"><small><anchor><prev />Go back</anchor></small></p>
-	</card>-->
 </wml>
