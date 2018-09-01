@@ -59,7 +59,7 @@ h2 {
 	font-size: 1em;
 }
 
-p ul {
+p, ul {
 	font-family: 'Fairfax';
 	color: #202020;
 	font-size: 12px;
