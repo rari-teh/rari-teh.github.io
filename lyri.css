@@ -1,0 +1,16 @@
+@font-face {
+	font-family:'Dovah';
+	src: local('Dragon_Alphabet_Private'), local('DragonAlphabetPublic-Regular'), url('/fonts/dov.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;}
+
+* {font-family:'DejaVu Sans';}
+h1, h2, h3, p {text-align:center; font-family:inherit;}
+ul {list-style-type:none; font-family:inherit;}
+li {font-family:inherit;}
+a {text-decoration:none; font-family:inherit;}
+.latin {font-size:smaller;}
+
+:lang(ar) {direction:rtl;}
+:lang(en) {font-family:'DejaVu Sans' !important;}
+.x-dov {font-family:'Dovah' !important;}
