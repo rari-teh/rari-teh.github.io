@@ -21,3 +21,7 @@ p {
 	font-size: 0.75em;
 	color: #101010;
 }
+
+.tooltip {
+	text-decoration: underline dotted;
+}
