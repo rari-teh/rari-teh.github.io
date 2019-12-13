@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function generateword() {
+	var wordbank = [
+		["fresno"],
+		["rebolation"],
+		["pabllovittar"],
+		["biroliro"],
+		["fnord"],
+		["awoo"],
+		["ludmilla"],
+		["ladygaga"],
+		["pospiranga"],
+		["fugidinha"],
+		["mamonas"],
+		["jojo"],
+		["hunter2"],
+		["bolaquadrada"],
+		["gusttavolima"],
+		["paulofreire"],
+		["schwarzenegger"],
+		["ievanpolkka"],
+		["hatsunemiku"],
+		["avassaladores"],
+		["pikachu"],
+		["sgpcaiu"],
+		["catra"],
+		["despacito"],
+		["gangnamstyle"],
+		["latino"],
+		["perlla"],
+		["joelma"],
+		["gracyanne"],
+		["asabranca"],
+		["calypso"],
+		["euquerotchu"],
+		["brasiliaamarela"],
+		["jenifer"],
+		["azulcaneta"],
+		["ferias"],
+		["eminem"],
+		["emicida"],
+		["marcelod2"],
+		["lolabunny"],
+		["feliz2020"],
+		["jardimsecreto"],
+		["50tons"],
+		["cosplay"],
+		["mariacaxuxa"],
+		["willsmith"],
+		["luizcaldas"],
+		["waldick"],
+		["feminismo"],
+		["elbakyan"],
+		["mariecurie"],
+		["ranavalona"],
+		["bonaparte"],
+		["kimjongun"],
+		["esmeralda"],
+		["olocobicho"],
+		["pintinhoamarelinho"],
+		["porchat"],
+		["kibeloco"],
+		["oscarmaroni"],
+		["silviosantos"],
+		["chinforimpola"],
+		["buchecha"],
+		["gloriagroove"],
+		["wanessa"],
+		["marteataca"],
+		["naldo"],
+		["fritz"],
+		["tamborindeguy"],
+		["marchiori"],
+		["parishilton"],
+		["vladimirputin"],
+		["narcisa"],
+		["ruybarbosa"],
+		["neruda"],
+		["puertomontt"],
+		["nanquim"],
+		["carandiru"],
+		["tiananmen"],
+		["kamehameha"],
+		["hadouken"],
+		["klonoa"],
+		["nabucodonosor"],
+		["cadedalila"],
+		["ritchie"],
+		["meninaveneno"],
+		["xijinping"],
+		["willywonka"],
+		["picapau"],
+		["sabugosa"],
+		["lamen"],
+		["corvinal"],
+		["grifinoria"],
+		["sonserina"],
+		["lufalufa"],
+		["hogwarts"],
+		["amundsen"],
+		["rasputin"],
+		["1337"],
+		["calabocagalvao"],
+		["aposentadoria"],
+		["eikebatista"],
+		["mmdc"],
+		["betamax"],
+		["walkman"],
+		["sonrisal"],
+		["telesp"],
+		["eletropaulo"],
+		["greta"],
+		["donaflorinda"],
+		["antoniofagundes"],
+		["faustosilva"],
+		["claudetetroiano"],
+		["vovomafalda"],
+		["bts"],
+		["menudo"],
+		["rickymartin"],
+		["v1d4l0k4"],
+		["mefistofeles"],
+		["huepow"],
+		["luigi"],
+		["rupurudu"],
+		["megadrive"],
+		["maisde9000"],
+		["mestredosmagos"],
+		["pajero"],
+		["ajinomoto"],
+		["manchinha"],
+		["aaron"],
+		["susie"],
+		["chara"],
+		["alphys"],
+		["dreemurr"],
+		["farialima"],
+		["pyongyang"],
+		["astana"],
+		["robertocarlos"],
+		["betocarrero"],
+		["atari"],
+		["nintendinho"],
+		["luluzinha"],
+		["frajola"],
+		["r2d2"],
+		["c3po"],
+		["yahoo"],
+		["aol"],
+		["ibest"],
+		["modem56k"],
+		["ibm"],
+		["arytoledo"],
+		["babelfish"],
+		["duvivier"],
+		["pirralha"]
+	];
+	var words = null;
+	words = wordbank.slice(0);
+	var word, range, index;
+	index = Math.floor(Math.random() * words.length);
+	word = words[index];
+	document.getElementById("pword").innerHTML = word;
+	return null;
+};
+
+function checkword() {
+	var usertry = document.getElementById("userinput").value;
+	var pass = document.getElementById("pword").innerHTML;
+	if (usertry == null) {
+		window.alert("Digite a senha.");
+	} else if (usertry == pass) {
+		window.location.href = "https://forms.gle/cpZkzvY1sxZi6uzNA";
+	} else {
+		window.location.href = "http://rarit.ee/mascarenhas2020/RTFM.PNG";
+	};
+return null;
+};
+</script>
+<style type="text/css">
+body {
+	margin: auto;
+	max-width: 50%;
+	font-family: Arial, Helvetica, sans;
+	}
+	
+h1, div, input, button {
+	text-align: center;
+	}
+	
+li {
+	text-align: justify;
+	}
+	
+input {
+	margin-bottom: 10px;
+	}
+
+.warn {
+	font-size: 1.25em;
+	}
+</style>
+<meta charset="UTF-8" />
+<title>Avaliação da Unidade 2019 &mdash; Funcionários</title>
+</head><body onload="generateword();">
+
+<h1>Instruções de preenchimento</h1>
+<p class="remark">Leia atentamente antes de prosseguir!</p>
+
+<ol>
+	<li>O questionário que está prestes a preencher é completamente anônimo. Nem a gestão, nem seus associados têm meios de identificar quem escreveu cada resposta.</li>
+	<li>Esta avaliação tem como objetivo promover melhorias na escola para propiciar um melhor ambiente de trabalho para os funcionários e servir de canal de comunicação anônimo entre funcionários e gestão.</li>
+	<li>Leia com atenção o enunciado e todas as alternativas antes de responder cada questão.</li>
+	<li>Várias questões admitem mais de uma resposta. Sempre que cabível, marque todas as respostas que se apliquem ao seu caso.</li>
+	<li>Para prosseguir para a avaliação, esta página requer uma senha. Essa senha é gerada aleatoriamente a partir de um banco de dados de 153 senhas e muda a cada carregamento desta página. Não é possível utilizá-la para identificar o respondente. Sua existência serve apenas para garantir a leitura integral das instruções. A senha é <span id="pword"></span> &ndash; ela deve ser entrada da forma que aqui aparece, sem acentos ou letras maiúsculas.</li>
+	<li>Caso tenha alguma dúvida, consulte um membro da gestão.</li>
+	<li>Os resultados desta avaliação serão utilizados na elaboração do Projeto Político Pedagógico de 2020 e serão divulgados no início do ano.</li>
+</ol>
+
+<div>
+<p class="warn">Para prosseguir, digite a senha e clique em <b>&lsquo;Enviar&rsquo;</b>.</p>
+<input id="userinput" type="text" name="readcheck" /><br />
+<button type="button" onclick="checkword();">Enviar</button>
+</div>
+
+</body>
+</html>
