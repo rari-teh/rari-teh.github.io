@@ -25,3 +25,7 @@ p {
 .tooltip {
 	text-decoration: underline dotted;
 }
+
+a {
+	cursor: url(/misc/ring.Ani), pointer;
+}
