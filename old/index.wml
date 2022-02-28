@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.3//EN" "http://www.wapforum.org/DTD/wml13.dtd">
+<wml>
+	<head>
+		<meta name="author" content="rari-teh" />
+	</head>
+	<card id="home" title="rari-teh’s lair">
+		<p align="center"><big>rari-teh’s lair of whatever</big></p>
+		<p align="center">Unfortunately, there is no mobile content yet. You can always <anchor><go href="/index.html" />go back to desktop</anchor> if you want to.</p>
+	</card>
+</wml>

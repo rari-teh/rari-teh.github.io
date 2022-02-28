@@ -1,2 +1,5 @@
 User-agent: *
 Disallow: /unlisted/
+
+User-agent: *
+Disallow: /old/

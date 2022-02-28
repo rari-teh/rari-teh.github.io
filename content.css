@@ -1,0 +1,57 @@
+body
+{
+	background: #EEEEEE;
+	color: black;
+	margin: 7% 1.4% 1.4% 1.4%;
+	font-family: "Tahoma", "Apple Chancery", sans;
+	text-align: left;
+}
+
+div#omni
+{
+	float: left;
+	padding-left: 5%;
+	width: 800px;
+}
+
+h1
+{
+	font-family: "Courier New", mono;
+	font-weight: normal;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+h2.item
+{
+	font-size: inherit;
+	margin-bottom: 0;
+	padding-bottom: 0.7%;
+}
+
+h2.item+p.desc
+{
+	margin-top: 0;
+	padding-top: 0;
+	padding-left: 3.5%;
+	width: 60%;
+	text-align: justify;
+}
+
+hr
+{
+	margin: 0.7% 0 0.7% 0;
+}
+
+a
+{
+	color: periwinkle;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
