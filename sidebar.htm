@@ -15,6 +15,21 @@
 				destination = destination + "rarit.ee";
 				window.location = destination;
 			}
+			function copybutton()
+			/* totally not stolen from ske.land */
+			{
+				try {
+					let card = document.createElement("textarea");
+					card.value = document.querySelector("#rari").outerHTML;
+					document.body.appendChild(card);
+					card.select();
+					document.execCommand("copy");
+					document.body.removeChild(card);
+					alert("Copied HTML embed to clipboard!");
+				} catch (e) {
+					console.error(e);
+				}
+			}
 		</script>
 	</head>
 	<body onload="if(window.screen.width < 1200){alert('This website is best viewed at a horizontal resolution of 1200 pixels or higher.');}">
@@ -23,10 +38,12 @@
 			<ul>
 				<li><a href="main.htm" target="c">home</a> •</li>
 				<li><a href="http://blog.rarit.ee/" target="c">blog</a> •</li>
+				<li><a href="https://rari-teh.itch.io/" target="_top">itch.io</a> •</li>
 				<hr />
 				<!--<li><a href="soft.htm" target="c">my software</a> •</li>
 				<li><a href="soft2.htm" target="c">more software</a> •</li>-->
-				<li><a href="norhdn.htm" target="c">old romhacks</a> •</li>
+				<li><a href="patches.htm" target="c">my hacks</a> •</li>
+				<li><a href="norhdn.htm" target="c">anon romhack archive</a> •</li>
 				<hr />
 				<!--<li><a href="mmpl.htm" target="c">museum of memories</a> •</li>-->
 				<li><a href="psx2psp/index.htm" target="c">PSP EBOOT themes</a> •</li>
@@ -40,9 +57,16 @@
 				<li><a href="uaprint.htm" target="_top">your user agent</a> •</li>
 				<hr />
 				<li><a href="javascript:emailme()">contact</a> •</li>
-				<br /><br /><br /><br /><br />
+				<hr />
+				<li><a href="javascript:copybutton()"><img src="button.gif" width="88" height="31" alt="rari_teh" /></a></li>
+				<hr />
+				<li><a href="https://ske.land/?utm_source=88x31" target="_top"><img src="img/btn/skeland.gif" width="88" height="31" alt="ske.land" /></a></li>
+				<li><a href="http://niko.pink/" target="_top"><img src="img/btn/nikopink.gif" width="88" height="31" alt="niko.pink" /></a></li>
+				<li><a href="http://mozilla.org/firefox" target="_top"><img src="img/btn/firefox.gif" width="88" height="31" alt="Mozilla Firefox" /></a></li>
+				<li><a href="http://michael.orlitzky.com/articles/lets_not_encrypt.xhtml" target="_top"><img src="img/btn/letsnotencrypt.gif" width="88" height="31" alt="Let’s Not Encrypt" /></a></li>
 				<li style="color:black;cursor:default;"><a href="old/gumbounce.htm" target="c" style="cursor:default;">stupid secret</a> •</li>
 			</ul>
 		</div>
+		<div style="visibility: collapse;"><a href="http://rarit.ee/" id="rari"><img src="http://rarit.ee/button.gif" width="88" height="31" alt="rari_teh" /></a></div>
 	</body>
 </html>

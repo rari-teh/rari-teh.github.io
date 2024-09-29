@@ -1,0 +1,196 @@
+<html lang=ja><head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>patches &amp; romhacks | rari’s den</title>
+		<style type="text/css">
+			* {
+				font-smooth: never; -webkit-font-smoothing: none;
+				}
+			body {
+				max-width: 750px;
+				margin: auto;
+				padding-top: 15px;
+				background-color: #FAEDCB;
+				font-family: Verdana;
+				}
+			h1 {
+				text-align: center;
+				font-size: 1.75em;
+				}
+			.scaps {
+				text-align: center;
+				}
+			h2 {
+				font-size: 1.25em;
+				margin: 0 0 0 0;
+				}
+			h3 {
+				font-size: 1em;
+				margin: 0 0 3 0;
+				}
+			em {
+				font-weight: normal;
+				font-style: normal;
+				}
+			.desc {
+				margin-left: 15
+				}
+			.cover {
+				float: right;
+				margin-top: 0.5em;
+				margin-left: 0.5em;
+				margin-bottom: 0.5em;
+				}
+			img.cover {
+				border: 1px solid black;
+				cursor: pointer;
+				margin-left: 5px;
+				margin-bottom: 5px;
+				}
+			hr {
+				border-top: 3px double maroon !important;
+				border: none;
+				}
+			p {
+				text-align: justify;
+				font-size: 0.9em;
+				}
+			a {
+				color: maroon !important
+				}
+			span.s {
+				font-size: 0.7em;
+				}
+		</style>
+	</head>
+	<body>
+		<h1>～my romhacks &amp; mods～</h1>
+		<hr />
+		<div class="cover"><img class="cover" src="img/cvr/bm3.png" alt="Binary Monster 3: School Fighter" width="300"></div>
+		<h2>Binary Monster 3: School Fighter<br /><em>(熱門高校 數碼怪獸III)</em></h2>
+		<h3>AP fix</h3>
+		<h3>System:<em> Game Boy Color</em></h3>
+		<h3>Original ROM CRC32:<em> 9F64FB1C</em></h3>
+		<h3><a href="ref/patches/sfighter3_ap.zip">Download</a> | <a href="https://www.romhacking.net/hacks/6371/">RHDN page</a></h3>
+		<p class="desc">This is a fun, if short and simple, little beat-’em-up from the extremely competent folks at Gowin, one
+		of the better Taiwanese unlicensed Game Boy developer houses. While the gameplay doesn’t offer a lot of variety &ndash;
+		not like I can blame them much considering the Game Boy has only two buttons &ndash;, as usual for Gowin, the art oozes
+		cuteness and personality. Following the copyright-infringing path of its conterraneous unlicensed brethren, its Chinese
+		name translates to <i>Digimon III</i>, but the closest you’ll find to actual Digimon in the game are furry OCs. The Wild
+		West that was the Chinese video game industry, where copyright was a mere suggestion, spawned a cottage industry of
+		anti-piracy chips and special mappers for original games, mainly to prevent your neighbour from stuffing your precious
+		little game into a bootleg multicart and selling an entire pallet of it to the first Mediterranean merchant that appeared
+		at their doorstep. Ironically, this means that, while most licensed games can run on basically any emulator, unlicensed
+		games require additional work on the emudev’s part in implementing the (many, <i>many</i>) DRM chips and weird mappers.
+		<i>Binary Monster 3</i> is, indeed, one of those games that went unloved by the scene: at least to my knowledge, not even
+		taizou’s <a href="https://github.com/tzlion/hhugboy">hhugboy</a>, an emulator specialised in Game Boy bootlegs, natively supports it.</p>
+		<p class="desc">I first heard of this game from Ankos at the <a href="http://bootleg.games/BGC_Forum/">Bootleg Games Central Forum</a>,
+		who pointed out that someone had cracked <i>Binary Monster 3</i>’s anti-piracy checks and posted a patch to <a href="http://low-end.net/blog/2016/04/22/reverse-engineering-the-past-copy-protection-in-school-fighter/">their blog</a>, but the link had rotten
+		and there was no backup. Taking a look at the blogpost, I saw that it documented the rather simple anti-piracy checks well
+		enough that it felt like it was possible for me to crack the game once again using it as a rough guide…
+		<a href="http://bootleg.games/BGC_Forum/index.php?topic=3011.0">and so I did</a>.</p>
+		<hr />
+		<div class="cover"><img class="cover" src="img/cvr/bpe.png" alt="Bomberman: Party Edition (NTSC-U)" width="300"></div>
+		<h2>Bomberman: Party Edition</h2>
+		<h3>dub restoration/subbing</h3>
+		<h3>System:<em> PlayStation</em></h3>
+		<h3>Original ROM CRC32:<em> 98275A08</em></h3>
+		<h3><a href="ref/patches/bmpe_inj.7z">Download</a></h3>
+		<p class="desc">The best <i>Bomberman</i> game for multiplayer on the PlayStation got, in general, a very good official translation
+		&ndash; and by that, I mean that the little voice clips of Bomberman adorably yelling your choices back at you on the menus were left
+		unchanged in Japanese and there were no attempts at censoring things like <a href="https://ia803402.us.archive.org/17/items/bombermanpartyedition/manual-15.jpg">
+		the names of the illnesses from the Skull item</a>. That being said, there was a translation decision that always baffled me:
+		for one reason or another, they chose to <a href="https://tcrf.net/Bomberman:_Party_Edition#Regional_Differences">remove
+		the voice acting from the intro FMV</a>. It sure felt like a pity &ndash; as usual for <i>Bomberman</i>, the acting is cute and
+		full of personality, and watching the bombermen jump around and kill each other with all SFX intact without letting out as much as a yelp
+		feels very odd. I’d been playing the game with the Japanese intro injected into my American ROM for a while, but I still wanted to know what they were saying to each other.</p>
+		<p class="desc">Now, I can’t really speak Japanese, but I sure can speak Spanish, and, as fate would have it, someone who speaks both decided
+		to upload <a href="https://www.youtube.com/watch?v=cS03wkIv9dk">a charmingly mid-2000s-like fandub of the intro movie</a> to YouTube in 2022.
+		Using Dobleando Ando’s material as a reference, I subbed the intro in English… only to find out that the bombermen’s bickering are
+		exactly what you’d think they’d be saying to each other by the visual cues alone, and the subs basically add nothing to the experience
+		but visual clutter. While the little voice clips in the game itself are just an accompaniment to the action and to visual cues that were translated to English,
+		an FMV entirely in Japanese would probably confuse the average Western player, and subtitling one minute of “take that”s and “outta my way”s would
+		look pretty awkward, and now Vatical Entertainment’s decision to just mute the voice lines feels understandable and perhaps even prudent. While my plans to upload the restoration+subs
+		hack to RHDN went down the drain, I figure the bland fruit of my work
+		still warrants uploading <i>somewhere</i>, and my obscure little Internet corner will do.</p>
+		<p class="desc">The downloadable archive includes two patches: the first one &ndash; the one I personally use &ndash; only restores the audio,
+		and the second also includes subtitles.</p>
+		<hr />
+		<div class="cover"><img class="cover" src="img/cvr/4in1.png" alt="Four in One (Mega Duck)" width="300"></div>
+		<h2>Dice Square<br /><em>(Dice Block)</em></h2>
+		<h3>from <i>Four in One</i></h3>
+		<h3>bugfix/cheat</h3>
+		<h3>System:<em> Mega Duck/Game Boy</em></h3>
+		<h3>Original ROM CRC32 (Duck):<em> 8046EA70</em></h3>
+		<h3>Original ROM CRC32 (DMG):<em> <!--a href="https://datomatic.no-intro.org/index.php?page=show_record&s=46&n=1558"-->5E438DB8<!--/a--> (Vol. 2)</em></h3>
+		<h3><a href="ref/patches/diceblk_tmr.7z">Download</a></h3>
+		<p class="desc"><i>Four in One</i> is a nice little compilation of four simple games by Sachen that were never released by themselves:
+		<i>Virus Attack</i>, a bad <i>Galaga</i> clone; <i>Electron World</i>, the mandatory <i>Battle City</i> clone; <i>Trouble Zone</i>, a
+		much easier and visually uninteresting <i>Columns</i> clone; and <i>Dice Square</i>, aka <i>Dice Block</i>, which is… a completely original
+		puzzle game. Huh. It is so original, in fact, that nobody online seemed to know how to
+		play it when I first stumbled upon it years ago. I wrote <a href="http://blog.rarit.ee/2023/02/puzzle-game-archeology-or-idiot-duck.html">
+		at great length on my blog</a> about my entire journey with it, from figuring out the rules to making this patch I didn’t even get to explain yet,
+		but the gist of the game is that you have piles of blocks on a field and your goal is to push all blocks to the ground so that all
+		piles are only one block tall &ndash; and you can only climb or push one block at a time. It’s a very fun game, the sort that you finish and
+		wish it were longer, even though it is clear that very little thought has been put into some of the levels’ design and even less on
+		the difficulty curve.</p>
+		<p class="desc">The problem with <i>Dice Square</i> isn’t on its design, but on its quality assurance, or lack thereof. The levels run
+		on a fixed 5-minute timer. In what I can only speculate was a late change to plaster over some movement-related game-breaking bug, the player character moves
+		unbearably slowly. You saw it coming &ndash; it is literally impossible to beat some of the later levels within the time limit. In the same
+		low-effort spirit that I presume moved Sachen to reduce player speed to a crawl, I plastered over this problem by disabling the timer.
+		Free max time bonus for everyone! But, most importantly, you can now beat the entire game.</p>
+		<p class="desc">As of May 2024, <i>Four in One</i> &ndash; and, thus, <i>Dice Square</i> &ndash; has two dumped releases: one on its original system, the universally
+		beloved Creatronic Mega Duck, and one as a Game Boy port, made viable by the former being basically a hardware clone of the latter
+		with the serial numbers filed off (i.e. different memory mappings). In fact, Sachen rereleased its entire surprisingly lengthy Mega Duck
+		library on its non-avian cousin in four-in-one multicarts, this being one of only two who were originally multicarts on the Mega Duck
+		itself. The Game Boy <i>Four in One</i> that includes <i>Dice Square</i> is the one with the product number 4B-002 (vol. 2).</p>
+		<hr />
+		<div class="cover"><img class="cover" src="img/cvr/pls.png" alt="Prism Land Story (NTSC-J, Dcruise.)" width="300"></div>
+		<h2>Prism Land Story</h2>
+		<h3>Memory Card support/mouse support</h3>
+		<h3>System:<em> PlayStation</em></h3>
+		<h3>Original ROM CRC32:<em> 1683FC76</em></h3>
+		<h3><a href="ref/patches/pls_inj.7z">Download</a> | <a href="https://www.romhacking.net/hacks/7711/">RHDN page</a></h3>
+		<p class="desc"><i>Prism Land Story</i> is a brilliant little <i>Arkanoid</i>-like paddle-and-ball videogame with a quite captivating
+		fantasy setting and shōjo style art that looks straight out of a 1990s compilation manga. It features a rather interesting shop system in which you can
+		spend MP before entering a level to start with powerups already in effect &ndash; not too dissimilar from how modern pay-to-win mobile games work,
+		except without the microtransactions and with some semblance of actual balance. It was self-published by tiny developer house
+		Dcruise. and then proceeded to be mangled by a flock of budget publisher vultures Prometheus-style in a succession of ever-worsening
+		cheapy releases, one of which being farted out in Europe only by the penny-pinching extraordinnaires at MiDAS Interactive. Yes,
+		<a href="https://www.youtube.com/watch?v=dQRyof7_PkA"><b><i>that</i></b></a> MiDAS. This <i>could</i> have been an alright release if you’d’ve been
+		willing to overlook the omnipresence of Comic Sans, if it weren’t for a very crucial problem: for some exasperating reason only the corkheads
+		at MiDAS are privy to, they made the decision to remove Memory Card support. Make no mistake, <i>Prism Land Story</i> is not a particularly
+		easy nor short game; it was ostensibly meant to be played in more than one sitting, and, while nowadays we have the luxuries of virtually unlimited
+		savestates on cycle-accurate emulators that can run the game flawlessly on the cheapest of laptops, if you wanted to play it on a PSP or on
+		real hardware, you’d be shit out of luck. If that fuckup isn’t enough for MiDAS’ version to be a dealbreaker for you, the other big one likely
+		will be: in the process of doing away with the Memory Card support, they also removed the rather refined PlayStation Mouse support the original had,
+		which was arguably the best way to play the game.</p>
+		<p class="desc">Fortunately for us, not only MiDAS did an acceptable, if utilitarian, job in translating everything that mattered &ndash; story included &ndash;,
+		but Dcruise. made all text assets of the game into pure, uncompressed, easily hackable TIM images. This patch, meant to be applied to the one good
+		Japanese version, mostly injects MiDAS’ translated assets into the fully-featured game, bringing the joys of savegames and mouse control to the gaijin.
+		As of v1.1, it also fixes a graphical bug that arises from this injection which I learned how to squash over the course of a few nights with
+		much patient help from the good people of the <a href="https://www.romhacking.net/forum/index.php?topic=38882.0">RHDN Forums</a>. I don’t think
+		there are any other visual weirdnesses left that weren’t already there
+		from MiDAS’ half-assed job, but I didn’t test the patch too thoroughly and if you find any weird bug you should definitely hit me up.
+		Maybe one night I should redo all the assets with a more pleasing font and spacing that actually makes sense… v2.0 incoming? Don’t hold your breath…</p>
+		<hr />
+		<div class="cover"><img class="cover" src="img/cvr/sss2000.bmp" alt="Si Chuan Sheng 2000 (splash)" width="300"></div>
+		<h2>Si Chuan Sheng 2000<br /><em>(四川省2000)</em></h2>
+		<h3>NoCD crack</h3>
+		<h3>System:<em> Windows</em></h3>
+		<h3><a href="ref/patches/S2000.7z">Full download</a></h3>
+		<p class="desc">Sichuan sheng is the Chinese reading of the Han characters 四川省, which are better known in the West by their Japanese reading: Shisen-shō. In case you’re not familiar with it, it’s <i>the other</i> mahjong solitaire game, the one where all tiles are placed in a single rectangle and they must be removed in pairs by connecting them with at most three orthogonal lines. <i>Si Chuan Sheng 2000</i>, which came out when 2000 was still in the future, is one of the very few Shisen games I can think of that actually shakes up the formula. Developed by the always excellent <a href="https://www.ttime.com.tw/ttime_company-en.html">T-Time Tech &amp; Art</a> of <a href="https://www.myabandonware.com/game/jurassic-banqi-7qk"><i>Jurassic Banqi</i></a> quote-unquote fame, it features as its centerpiece a series of 64 carefully constructed puzzles with mahjong tiles, torches, dynamite packs and concrete blocks, besides other game modes like regular shisen and two-player modes. Like all the 10 other people outside Taiwan who appreciate this game, I first heard of it through <a href="https://www.youtube.com/watch?v=vwDfmzT8N3s">Rubycored’s longplay of it on YouTube</a> and instantly knew I had to play it for myself.</p>
+		<p class="desc">Once I finally managed to get a copy, two problems arose: first, even though the game is 32-bit, the installer was made with InstallShield 5, which includes a 16-bit stub, making it impossible to install on a 64-bit machine without <a href="https://github.com/otya128/winevdm/">winevdm</a>. Second, and most annoying to me, is the game’s DRM. As one may expect from a 1998 game, it artificially requires the CD-ROM to be present on the first CD drive before allowing you to play. This was annoying enough to me that I took the time to patch it out and then <a href="http://blog.rarit.ee/2023/04/adventures-in-asm-ii-szechuan-sauce.html">write a rambly blogpost</a> about it. To make it easier for everyone, I’ve also repackaged the game to use a <a href="https://www.old-games.ru/forum/threads/installshield-wrapper.61789/">32-bit setup stub</a> made by AxXxB of Old-Games.RU.</p>
+		<p class="desc">And, apropos of nothing, I will repeat what I said on my blog: if you are a representative of T-Time and want to file a takedown request on this download, please by all means email me. I will be delighted to remove it from this website, because that would mean that you actually care about <i>Si Chuan Sheng 2000</i> and are probably planning to rerelease it, which would make the problem moot. It literally would cost you close to nothing to put it up for sale on GoG and watch the money trickle in.</p>
+		<hr />
+		<!--<div class="cover"><img class="cover" src="img/cvr/tc.png" alt="Tail Concerto (NTSC-U)" width="300"></div>
+		<h2>Tail Concerto</h2>
+		<h3>undub</h3>
+		<h3>System:<em> PlayStation</em></h3>
+		<h3>Original ROM CRC32:<em> XXXXXXXX</em></h3>
+		<h3><a href="ref/patches/tc_undub_2.7z">Download</a></h3>
+		<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<hr />-->
+		
+		<p style="text-align:center;"><b>Last update:</b> 2024-09-29</p>
+	
+</body></html>
