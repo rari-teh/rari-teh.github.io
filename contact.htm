@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<title>◊ find rari ◊</title>
+		<script type="text/javascript">
+			function emailme()
+			{
+				var destination = "mail";
+				destination = destination + "to";
+				destination = destination + ":";
+				destination = destination + "main";
+				destination = destination + "box";
+				var atchar = "@"
+				destination = destination + atchar;
+				destination = destination + "rarit.ee";
+				window.location = destination;
+			}
+		</script>
+		<style type="text/css">
+			@font-face {
+				font-family: "Nishiki-teki";
+				src:
+					local("Nishiki-teki"),
+					url("font/nishiki-teki.ttf") format("truetype");
+			}
+			* {
+				font-family: "Nishiki-teki";
+			}
+			body {
+				background: linear-gradient(0.1turn, #BB6DCC, teal);
+				max-width: 750px;
+				margin: auto;
+				padding-top: 25px;
+				padding-bottom: 25px;
+			}
+			a {
+				text-decoration: none;
+				color: inherit;
+			}
+			a#oof {
+				color: chartreuse;
+				-webkit-text-stroke: 1px black;
+			}
+			a#oof:hover {
+				color: white;
+				-webkit-text-stroke: 1px chartreuse;
+			}
+			div.container {
+				background: #ffffff70;
+				padding-top: 25px;
+				padding-bottom: 25px;
+				margin-left: auto;
+				margin-right: auto;
+				max-width: 450px;
+			}
+			div.me {
+				width: 400px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-bottom: 0;
+				padding-bottom: 0;
+				display: table;
+			}
+			a.social {
+				margin-left: auto;
+				margin-right: auto;
+				clear: both;
+				width: 400px;
+				height: 80px;
+				background: chartreuse;
+				display: block;
+			}
+			a.social:hover {
+				background: white;
+			}
+			div.avatar, div.logo {
+				float: left;
+				margin: 0;
+				padding: 0;
+			}
+			div.avatar {
+				height: 100px;
+			}	
+			div.profile {
+				height: 60px;
+				display: table-cell;
+				vertical-align: middle;
+				width: 290px; /* div.me.width - img.avatar.height - img.avatar.padding-right */
+			}
+			h1 {
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+			hr {
+				border: 0;
+				clear: both;
+				margin: 0;
+				padding: 0;
+			}
+			hr + a.social {
+				margin-top: 0;
+				padding-top: 0;
+			}
+			img.avatar {
+				border-radius: 50%;
+				height: 100px;
+				padding-right: 10px;
+			}
+			img.logo {
+				height: 60px;
+				padding: 10px;
+			}
+			p.social {
+				line-height: 80px;
+				margin-top: 25px;
+				margin-bottom: 25px;
+			}
+			p.vpad {
+				margin-top: 0;
+				padding-top: 5px;
+			}
+			span#dhandle {
+				display: none;
+			}
+			a#discord p.social:before {
+				content: "discord"
+			}
+			a#discord:hover p.social span {
+				display: contents;
+			}
+			a#discord:hover p.social:before {
+				content: "";
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="me">
+				<div class="avatar">
+					<img class="avatar" src="img/link/avatar.jpg" alt="rari_teh ◊" />
+				</div>
+				<div class="profile">
+					<h1>rari_teh</h1>
+					<p class="vpad"><!--𩘊猁～<br />-->pfp by <a id="oof" href="https://twitter.com/oofmasterXD_IG">oofXD</a></p>
+				</div>
+			</div>
+			<hr class="break" />
+			<a href="https://twitter.com/rari_teh" class="social" id="twitter">
+				<div class="logo">
+					<img class="logo" src="img/link/twitter.png" alt="twt" />
+				</div>
+				<p class="social">twitter</p>
+			</a>
+			<a href="javascript:emailme();" class="social" id="email">
+				<div class="logo">
+					<img class="logo" src="img/link/yamail.png" alt="email" />
+				</div>
+				<p class="social">email</p>
+			</a>
+			<a href="https://www.xiaohongshu.com/user/profile/678636e00000000008019b9b" class="social" id="xiaohongshu">
+				<div class="logo">
+					<img class="logo" src="img/link/xiaohongshu.png" alt="xhs" />
+				</div>
+				<p class="social">小红书</p>
+			</a>
+			<a href="https://bsky.app/profile/rarit.ee" class="social" id="bluesky">
+				<div class="logo">
+					<img class="logo" src="img/link/bluesky.png" alt="bsky" />
+				</div>
+				<p class="social">bluesky</p>
+			</a>
+			<a href="https://meow.lgbt/@rari_teh" class="social" id="fediverse">
+				<div class="logo">
+					<img class="logo" src="img/link/activitypub.png" alt="fedi" />
+				</div>
+				<p class="social">fediverse</p>
+			</a>
+			<a href="http://blog.rarit.ee" class="social" id="blog">
+				<div class="logo">
+					<img class="logo" src="img/link/blogspot.png" alt="blog" />
+				</div>
+				<p class="social">blog</p>
+			</a>
+			<a href="https://archive.org/details/@rari_teh" class="social" id="ia">
+				<div class="logo">
+					<img class="logo" src="img/link/archive.jpg" alt="archive.org" />
+				</div>
+				<p class="social">internet&nbsp;archive</p>
+			</a>
+			<a class="social" id="discord">
+				<div class="logo">
+					<img class="logo" src="img/link/discord.png" alt="discord" />
+				</div>
+				<p class="social"><span id="dhandle">@rari_teh</span></p>
+			</a>
+			<a href="https://t.me/rari_teh" class="social" id="telegram">
+				<div class="logo">
+					<img class="logo" src="img/link/telegram.png" alt="tg" />
+				</div>
+				<p class="social">telegram</p>
+			</a>
+		</div>
+	</body>
+</html>
