@@ -25,10 +25,14 @@
 					local("Nishiki-teki"),
 					url("font/nishiki-teki.ttf") format("truetype");
 			}
+			::selection {
+				background-color: chartreuse;
+			}
 			* {
 				font-family: "Nishiki-teki";
 			}
 			body {
+				cursor: url("misc/ms_default.cur"), default;
 				background: linear-gradient(0.1turn, #BB6DCC, teal);
 				background-attachment: fixed;
 				max-width: 750px;
@@ -37,6 +41,7 @@
 				padding-bottom: 25px;
 			}
 			a {
+				cursor: url("misc/ms_pointer.cur"), pointer;
 				text-decoration: none;
 				color: inherit;
 			}
@@ -80,6 +85,7 @@
 				float: left;
 				margin: 0;
 				padding: 0;
+				user-select: none;
 			}
 			div.avatar {
 				height: 100px;
@@ -122,8 +128,14 @@
 				margin-top: 0;
 				padding-top: 5px;
 			}
+			span {
+				cursor: url("misc/ms_text.ani"), url("misc/ms_text.apng") 15 14, text;
+			}
 			span#dhandle {
 				display: none;
+			}
+			a#discord {
+				cursor: url("misc/ms_text.ani"), url("misc/ms_text.apng") 15 14, text;
 			}
 			a#discord p.social:before {
 				content: "discord"
@@ -146,8 +158,8 @@
 					<img class="avatar" src="img/link/avatar.jpg" alt="rari_teh ◊" />
 				</div>
 				<div class="profile">
-					<h1>rari_teh</h1>
-					<p class="vpad"><!--𩘊猁～<br />-->pfp by <a id="oof" href="https://twitter.com/oofmasterXD_IG">oofXD</a></p>
+					<h1><span class="beam">rari_teh</span></h1>
+					<p class="vpad"><!--<span class="beam">𩘊猁～</span><br />--><span class="beam">pfp by <a id="oof" href="https://twitter.com/oofmasterXD_IG">oofXD</a></span></p>
 				</div>
 			</div>
 			<hr class="break" />
@@ -198,6 +210,12 @@
 					<img class="logo" src="img/link/archive.jpg" alt="archive.org" />
 				</div>
 				<p class="social">internet&nbsp;archive</p>
+			</a>
+			<a href="https://rari-teh.itch.io/" class="social" id="itch">
+				<div class="logo">
+					<img class="logo" src="img/link/itch.png" alt="itch" />
+				</div>
+				<p class="social">itch.io</p>
 			</a>
 			<a class="social" id="discord">
 				<div class="logo">
