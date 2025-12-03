@@ -34,6 +34,7 @@
 			{
 				if(window.screen.width < 1200){alert('This website is best viewed at a horizontal resolution of 1200 pixels or higher.');}
 				if(getRandomInt(20) == 9){lu9.src = "img/btn/tehlu9prod.gif";}
+				if(getRandomInt(2) == 1){endorsement.innerHTML="<a href=http://www.bimboosoft.com/ target=_top><img src=img/btn/bimbooBanner.gif width=88 height=31 alt=Bimboosoft /></a>";}
 				if(getRandomInt(2) == 1){
 					var which = getRandomInt(4);
 					if(which == 0){lul.innerHTML="<a href=https://www.youtube.com/@rextodd target=_top><img src=img/btn/prayfordave.gif width=88 height=31 alt=#PrayForDave /></a>";}
@@ -81,6 +82,7 @@
 				<li><a href="http://bernachacities.neocities.org" target="_top"><img src="img/btn/bernacha.gif" width="88" height="31" alt="Bernachá" /></a></li>
 				<!--<li><a href="http://mozilla.org/firefox" target="_top"><img src="img/btn/firefox.gif" width="88" height="31" alt="Mozilla Firefox" /></a></li> MOZILLA IS FUCKING GROUNDED-->
 				<li><a href="http://michael.orlitzky.com/articles/lets_not_encrypt.xhtml" target="_top"><img src="img/btn/letsnotencrypt.gif" width="88" height="31" alt="Let’s Not Encrypt" /></a></li>
+				<li id="endorsement"></li>
 				<li id="lul"></li>
 				<li style="color:black;cursor:default;"><a href="old/gumbounce.htm" target="c" style="cursor:default;">stupid secret</a> •</li>
 			</ul>
