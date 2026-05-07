@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<title>rari_teh | Artitype font</title>
+		<style type="text/css">
+			@font-face {
+				font-family: "Artitype D";
+				src: url("font/ArtitypeDP-Neo.ttf") format("truetype");
+			}
+			@font-face {
+				font-family: "Artitype Mono";
+				src: url("font/ArtitypeMonoP-Neo.ttf") format("truetype");
+			}
+			* {
+				font-weight: normal;
+				color: white;
+			}
+			.mono {
+				font-family: "Artitype Mono";
+			}
+			h1, h2, b, li::marker {
+				color: #E2C5FF;
+			}
+			body {
+				font-family: "Artitype D";
+				max-width: 35em;
+				margin: auto;
+				padding-top: 2em;
+			}
+			a {
+				color: #DDDDDD;
+			}
+			.note {
+				list-style-type: "\003A";
+				font-size: 0.8em;
+			}
+			h1, h2, .dl {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body bgcolor="#9593FF">
+		<h1>ARTITYPE</h1>
+		<p class="dl"><a href="ref/fonts/artitype.zip">Download</a> | <a href="ref/fonts/artisrc.zip">Source</a></p>
+		<p>Artitype is an <b>unofficial</b> genotheta font family designed for legibility. It includes all official characters as designed by artifyber, plus a few stand-in characters that make it suitable for a wide array of applications, from coding to longform text.</p>
+		
+		<p>A breakdown of the special characters supported by this font can be found <a href="ref/fonts/artitype_paper.pdf">here</a>.</p>
+		
+		<h2>Artitype D</h2>
+		<p>Artitype D is a standard font meant for general use. Some of its features are:</p>
+		<ul>
+			<li>Almost full compatibility with the official GENOTHETAEX font by artifyber</li>
+			<ul class="note">
+				<li>The genotheta numerals are encoded in the Private Use Area in order to make them distinct from the more ubiquitous base- arabic numerals, whose codepoint&zwnj;s house digit&zwnj;s  to  on GENOTHETAEX</li>
+			</ul>
+			<li>OpenType ligatures for all  letters that map to latin digraphs — the  original ones (th, sh, gh, ng, wh, ny, ts) and the  later additions (ch, ph, ck, qu, wr, kn, ps)</li>
+			<li>A narrower space character, for more visually uniform text blocks</li>
+			<li>Optionally,&#x3000;a&#x3000;fullwidth&#x3000;space&#x3000;character&#x3000;too,&#x3000;encoded&#x3000;at&#x3000;the&#x3000;ChJK&#x3000;ideographic&#x3000;space&#x3000;Unicode&#x3000;codepoint&#x3000;(U+3000)</li>
+			<li>Unofficial stand-ins for common punctuation marks and symbols (mostly taken from latin)</li>
+			<li>Support for arabic numerals as well as genotheta numerals</li>
+		</ul>
+		
+	<div class="mono">
+		<h2>Artitype Mono</h2>
+		<p>Artitype Mono is a font intended for use on IDEs, terminal emulators and other environment&zwnj;s where a monospaced font is preferrable. It is fully compatible with the Windows Command Prompt. While it includes all digraph letters, the font does not support automatic ligatures.</p>
+	</div>
+
+		<h2>KittyMath</h2>
+		<p>KittyMath is a small Delphi program that converts numbers between the base- arabic figures and the base- genotheta system. It was made before arti published <a target="_top" href="https://artifyber.xyz/?m=converters&i=genotheta">her own online converter</a>, which would make KittyMath slightly redundant if it werent for the fact that our fonts use different encodings for the duotrigesimal digits. You can find KittyMath on <a target="_top" href="https://github.com/rari-teh/kittymath">my GitHub</a>.</p>
+		
+		<h2>PAQu (Potentially Asked Questions)</h2>
+		<ul>
+			<li><b>its so cool that arti let you do all this shit</b><br />
+			i did not ask for permission sorry arti i will delete everything if you ask</li>
+			<li><b>your font SUCKS</b><br />
+			i am a really bad typographer and i would not be surprised if artitype turned out to be kind of broken in any number of ways — i sure know that fontforge looked at me with hatred and disgust every time i asked it to compile the font<br />
+			if you are a better founder than me, you are welcome to make your own fixes and adjustment&zwnj;s and <a href="contact.htm">send me</a> the modified source files. i would be happy to publish it as an update and share authorship with you</li>
+			<li><b>wait none of these are questions</b><br />
+			thanks for showing up, guys. this conference is over</li>
+		</ul>
+		
+		<h6>Genotheta is (c) – <a target="_top" href="https://artifyber.xyz/">artifyber</a>. Artitype was made by rari_teh in  and updated in . You can use this font however you want if you credit me and if arti is cool with it (sorry im sorry im s)</h6>
+	</body>
+</html>
