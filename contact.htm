@@ -154,19 +154,22 @@
 			span {
 				cursor: url("misc/ms_text.ani"), url("misc/ms_text.apng") 15 14, text;
 			}
-			span#dhandle {
+			span#dhandle, span#fhandle {
 				display: none;
 			}
-			a#discord {
+			a#discord, a#fluxer {
 				cursor: url("misc/ms_text.ani"), url("misc/ms_text.apng") 15 14, text;
 			}
 			a#discord p.social:before {
 				content: "discord"
 			}
-			a#discord:hover p.social span {
+			a#fluxer p.social:before {
+				content: "fluxer"
+			}
+			a#discord:hover p.social span, a#fluxer:hover p.social span {
 				display: contents;
 			}
-			a#discord:hover p.social:before {
+			a#discord:hover p.social:before, a#fluxer:hover p.social:before {
 				content: "";
 			}
 			/*
@@ -247,6 +250,12 @@
 					<img class="logo" src="img/link/itch.png" alt="itch" />
 				</div>
 				<p class="social">itch.io</p>
+			</a>
+			<a class="social" id="fluxer">
+				<div class="logo">
+					<img class="logo" src="img/link/fluxer.png" alt="fluxer" />
+				</div>
+				<p class="social"><span id="fhandle">rari_teh#7872</span></p>
 			</a>
 			<a class="social" id="discord">
 				<div class="logo">
